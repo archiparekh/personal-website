@@ -1,0 +1,98 @@
+.Home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: white;
+  }
+h1, h2, p, li {
+  color: #4B7447;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+  #person {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1px;
+    align-content: center;
+    grid-column: 1;
+    grid-row: 1;
+    align-content: center;
+    text-align: center;
+  }
+  
+  #hi {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #hi > h1 {
+    color: #F9DC24;
+  }
+  
+  #hi > h1 {
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+  
+  }
+  
+  #headshot-place {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  #headshot {
+    height: 250px;
+    padding: 20px;
+    border-radius: 500px;
+  }
+  
+  .Intro {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .Intro > p {
+    font-size: 35px;
+  }
+  
+  #about-me {
+    grid-column: 1;
+    padding: 20px;
+    grid-row: 2;
+  }
+  
+  #work{
+    grid-column: 2;
+    padding: 20px;
+    grid-row: 2;
+  }
+  
+  #interests{
+    grid-column: 1;
+    padding: 20px;
+    grid-row: 3;
+  }
+  #skills{
+    padding: 20px;
+    grid-column: 2;
+    grid-row: 3;
+  }
+  
+#footer-div {
+  background-color: #d9b44a ;
+  grid-column: 1/3;
+  align-items: center;
+  display: inline-block;
+  text-align: center;
+}
+
+footer {
+  display: inline-block;
+  align-items: center;
+}
+
+footer > p {
+  color: #F1F1F2;
+}
+
+
