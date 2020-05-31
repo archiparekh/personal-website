@@ -14,7 +14,8 @@ class Interests extends Component {
           <Row>
             <Col>
             <br></br>
-            <h1 id="title">JUST FOR FUN 😄</h1>
+            <h1 id="title">Just for fun 😄</h1>
+            <h2 id="subtitle">Check out my creations!</h2>
             <br></br>
             </Col>
           </Row>            

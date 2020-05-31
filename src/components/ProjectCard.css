@@ -1,0 +1,15 @@
+Card>p {
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
+.text-white {
+  color: #4093a4 !important;
+  font-family: Raleway, sans-serif;
+}
+
+
+.bg-primary {
+  background-color:#e0fffb !important;
+}

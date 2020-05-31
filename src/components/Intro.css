@@ -1,0 +1,23 @@
+.Intro {
+  border-bottom: darkblue;
+}
+img {
+  display: inline-flex;
+  width: 90%;
+  padding-bottom: 100px;
+  padding-right: 20px;
+
+}
+
+#intro-typing-effect {
+  font-size: 100px;
+  font-family: Solway, serif;
+  text-align: center;
+  color: #4093a4;
+}
+
+#one-word-descriptions {
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  color:black;
+}
