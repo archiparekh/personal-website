@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.15e6ee29.chunk.css",
+    "main.js": "/personal-website/static/js/main.d3d92afb.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.d3d92afb.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.3a9d5e67.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.3a9d5e67.js.map",
+    "static/css/2.899cae31.chunk.css": "/personal-website/static/css/2.899cae31.chunk.css",
+    "static/js/2.c90804de.chunk.js": "/personal-website/static/js/2.c90804de.chunk.js",
+    "static/js/2.c90804de.chunk.js.map": "/personal-website/static/js/2.c90804de.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "precache-manifest.afb1b8f1d784a0bd358db81d584f09df.js": "/personal-website/precache-manifest.afb1b8f1d784a0bd358db81d584f09df.js",
+    "service-worker.js": "/personal-website/service-worker.js",
+    "static/css/2.899cae31.chunk.css.map": "/personal-website/static/css/2.899cae31.chunk.css.map",
+    "static/css/main.15e6ee29.chunk.css.map": "/personal-website/static/css/main.15e6ee29.chunk.css.map",
+    "static/js/2.c90804de.chunk.js.LICENSE.txt": "/personal-website/static/js/2.c90804de.chunk.js.LICENSE.txt",
+    "static/media/Archi-Parekh-Resume.pdf": "/personal-website/static/media/Archi-Parekh-Resume.69b23105.pdf",
+    "static/media/logo.svg": "/personal-website/static/media/logo.5d5d9eef.svg",
+    "static/media/me2.jpg": "/personal-website/static/media/me2.a7756ffb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a9d5e67.js",
+    "static/css/2.899cae31.chunk.css",
+    "static/js/2.c90804de.chunk.js",
+    "static/css/main.15e6ee29.chunk.css",
+    "static/js/main.d3d92afb.chunk.js"
+  ]
+}
