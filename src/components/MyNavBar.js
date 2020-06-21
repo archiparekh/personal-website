@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
-import './MyNavBar.css';
-import About from './About';
-import Hobbies from './Hobbies';
+import './styles/MyNavBar.css';
 import { Row, Container, Col } from 'react-bootstrap';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 
 export default class MyNavbar extends Component {

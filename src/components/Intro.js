@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import './Intro.css';
+import './styles/Intro.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Typical from 'react-typical'
-import MyPic from '../me2.jpg';
-import { FaMediumM, FaLinkedinIn, FaGithub, FaFacebookSquare } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaFacebookSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { IconContext } from "react-icons";
 import { GrDocument } from "react-icons/gr";

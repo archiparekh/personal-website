@@ -7,7 +7,7 @@ import {
   AccordionItemPanel,
 } from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
-import './WorkAccordion.css';
+import './styles/WorkAccordion.css';
 import { Container } from 'react-bootstrap';
 class WorkAccordion extends Component {
   render() {

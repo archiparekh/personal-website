@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import './Footer.css';
-import SkillItem from './SkillItem.js';
+import './styles/Footer.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Card from 'react-bootstrap/Card';
-import { Line, Circle } from 'rc-progress';
 
 
 class Footer extends Component {

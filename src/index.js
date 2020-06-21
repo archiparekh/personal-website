@@ -1,14 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import 'bootstrap/dist/css/bootstrap.css';
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import '../src/components/Navigation.css';
-import '../src/components/Intro.css';
-import '../src/components/Description.css';
-import '../src/components/About.css';
-import '../src/components/SocialBar.css';
-import '../src/components/ProjectCard.css';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';

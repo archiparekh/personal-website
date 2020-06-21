@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './SkillItem.css';
+import './styles/SkillItem.css';
 import { Line } from 'rc-progress';
 
 

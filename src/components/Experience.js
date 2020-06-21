@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
-import './Experience.css';
+import './styles/Experience.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import ProjectCard from './ProjectCard';
-
-import { BrowserRouter, Route, Link } from 'react-router-dom';
 import WorkAccordion from './WorkAccordion';
 
 
