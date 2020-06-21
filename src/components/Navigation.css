@@ -1,8 +1,13 @@
 .bg-light {
-  background-color: #e0fffb !important;
+  background-color: #FFD0CB !important;
 }
 
 Nav {
-  font-family: Montserrat, sans-serif;
-  color: #4093a4;
+  font-family: Lato, sans-serif;
+  color: #2B50AA !important;
+}
+
+Nav.text {
+  font-family: Lato, sans-serif;
+  color: #2B50AA !important;
 }

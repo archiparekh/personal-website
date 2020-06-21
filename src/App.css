@@ -1,3 +1,19 @@
 body {
-    background-color:#ffffb0;
+    background-color: #ffffb0;
+    line-height: 1.8;
+}
+
+h1, p, h2, h3 { 
+    font-family: Lato, sans-serif;
+    color: #2B50AA;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+a {
+    color: #2B50AA;
+    font-weight: 700;
 }

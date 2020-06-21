@@ -16,7 +16,7 @@ class Skills extends Component {
         <Container>
           <Row className="align-items-center">
             <Col>
-              <h1>💯 Skills</h1>
+              <h1 className="title">💯 Skills</h1>
             </Col>
             <Col className="align-items-right">
               <br></br>

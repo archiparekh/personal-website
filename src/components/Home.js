@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import Navigation from './Navigation';
 import Intro from './Intro';
 import About from './About'
-import Description from './Description';
 import Experience from './Experience';
 import Skills from './Skills';
 import Hobbies from './Hobbies';
+import MyNavBar from './MyNavBar';
+import Footer from './Footer';
 import SocialBar from './SocialBar';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -16,18 +17,13 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <Navigation></Navigation>
-        <Container fluid>
+        <MyNavBar></MyNavBar>
           <Intro></Intro>
-          <Description></Description>
           <About></About>
           <Experience></Experience>
           <Skills></Skills>
           <Hobbies></Hobbies>
-        </Container>
-      <footer>
-      <SocialBar></SocialBar>
-      </footer>
+          <Footer></Footer>
       </div>
     );
   }

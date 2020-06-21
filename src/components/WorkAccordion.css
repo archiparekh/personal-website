@@ -1,0 +1,21 @@
+.accordion {
+  background-color: #2B50AA;
+  border: none;
+}
+.accordion__item {
+  color: #ffffb0;
+}
+
+.accordion__heading {
+  background-color: #ffffb0;
+}
+
+.accordion__panel{
+  background-color: #ffffb0;
+}
+
+.accordion__button{
+  background-color: #2B50AA;
+  color: white; 
+}
+

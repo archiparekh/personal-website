@@ -1,4 +1,5 @@
 import React from 'react';
+import './components/Navigation.css';
 import './App.css';
 import Home from './components/Home';
 import Work from './components/Work';
@@ -7,14 +8,9 @@ import { BrowserRouter, Route } from 'react-router-dom';
  
 function App() {
   return (
-    <BrowserRouter>
       <div className="App">
-
-        <Route exact path="/" component={Home} />
-        <Route path="/work" component={Work} />
-        <Route path="/interests" component={Interests} />
+        <Home></Home>
       </div>
-    </BrowserRouter>
   );
 }
  

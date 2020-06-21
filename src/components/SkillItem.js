@@ -7,9 +7,8 @@ class SkillItem extends Component {
   render() {
     return (
       <div className="SkillItem">
-        <Line percent={this.props.level} strokeWidth="1" strokeColor="#4093a4" trailColor="#e0fffb"/>
+        <Line percent={this.props.level} strokeWidth="1" strokeColor="#2B50AA" trailColor="#4EA5D9"/>
         <p id="skill-title" class="text-left">{this.props.skill}</p>
-        <br></br>
       </div>
     );
   }

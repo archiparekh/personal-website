@@ -1,0 +1,17 @@
+.Button {
+  height: fit-content;
+  width: fit-content  ;
+  border: 1px;
+  border-style: solid;
+  border-color: #2B50AA;
+  padding: 5px;
+}
+
+.Button:hover {
+background-color: #2B50AA ;
+
+}
+
+.button-text{
+
+}

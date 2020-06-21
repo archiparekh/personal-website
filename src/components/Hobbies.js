@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './Hobbies.css';
+import './Button.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Typical from 'react-typical';
+import MyButton from './Button';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
@@ -15,7 +17,7 @@ class Hobbies extends Component {
       <Container>
         <Row className="align-items-center">
           <Col>
-            <h1>🚗 Hobbies</h1>
+            <h1 className="title">🚗 Hobbies</h1>
           </Col>
           <Col className="align-items-right"></Col>
         </Row>
@@ -38,14 +40,8 @@ class Hobbies extends Component {
               </h3>
           </Col>
         </Row>
-        <Row>
-          <Col className="text-right">
-            <Link to="/interests">
-              <Button variant="outline-info">Check out my creations!</Button>
-            </Link>
-          </Col>
-        </Row>
       </Container>
+
     </div>
     );
   }
