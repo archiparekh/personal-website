@@ -19,7 +19,7 @@ class Intro extends Component {
         <br></br>
         <p id="hi">Hi there! I'm </p>
         <h1 id="name">Archi Parekh.</h1>
-        <h2 id="description">A student developer interested in the intersection of tech and sustainability.</h2>
+        <h2 id="description">I like to create cool things and make the world a happier place.</h2>
         <div class="socials" >
           <p id="divider">________________</p>
           <div>
@@ -31,11 +31,6 @@ class Intro extends Component {
           <a href="https://www.linkedin.com/in/archi-parekh-037939169/" target="_blank" rel="noopener noreferrer">
             <IconContext.Provider value={{ color: "black", size: "4em", className: "react-icons" }}>
               <FaLinkedinIn />
-            </IconContext.Provider>
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=100010031809265" target="_blank" rel="noopener noreferrer">
-            <IconContext.Provider value={{ color: "black", size: "4em", className: "react-icons" }}>
-              <FaFacebookSquare />
             </IconContext.Provider>
           </a>
           <a href="mailto:archiparekh23@gmail.com">

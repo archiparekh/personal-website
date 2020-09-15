@@ -11,3 +11,40 @@ img {
 #about-me {
   font-size: 16px;
 }
+
+.desktop-view{
+  visibility: visible;
+}
+.mobile-view{
+  display: none;
+}
+
+.currently-learning{
+  background-color:lightcyan;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.passionate{
+  background-color:lightsalmon;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.find-me{
+  background-color:lightgrey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop-view{
+    display: none;
+  }
+  .mobile-view{
+    padding-top: 10px;;
+    display: block;
+    visibility: visible;
+  }
+
+} 

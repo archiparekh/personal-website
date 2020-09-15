@@ -1,3 +1,23 @@
 #skill-title {
   font-size: 20px;
 }
+
+.skill-pill{
+  border:lightslategray;
+  border-style: solid;
+  border-width: 2px;
+  margin: 5px;;
+  padding: 5px;
+}
+
+.skill-pill>h2{
+  font-size: 16px;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .skill-pill>h2{
+    font-size: 12px;
+    color: black;
+  }
+} 

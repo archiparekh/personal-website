@@ -2,6 +2,7 @@
   margin: 0;
   padding-left: 0;
   height: 100vh;
+  padding-top: 100px;
 }
 
 
@@ -9,7 +10,6 @@ h1, h3, h2, p {
   font-family: Lato, sans-serif;
   color: #2B50AA;
 }
-
 
 #id { 
   font-size: 20px;
@@ -56,4 +56,18 @@ h1, h3, h2, p {
   flex:1;
   max-width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .Intro{ 
+    padding-top: 10px;
+    height: 400px;
+  }
+  #hi { font-size: 15px; }
+  #name { font-size: 50px; }
+  #description { font-size: 20px; }
+  .react-icons {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+} 
 

@@ -30,10 +30,24 @@ nav-content {
   font-weight: 700;
 }
 
+.navbar-brand{
+  font-size: 20px;
+  color: #818AA3;
+  font-weight: 700;
+}
+.navbar-brand:hover {
+  color: black;
+  cursor: pointer;
+}
+
 .MyNavBar {
   padding-top: 20px;
 }
 
 .nav-item > .active {
   border-bottom: 1px solid #333;
+}
+
+.navbar{
+  background-color: #ffffb0 !important;
 }

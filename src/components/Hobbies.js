@@ -11,12 +11,8 @@ class Hobbies extends Component {
     return (
       <div className="Hobbies">
       <Container>
-        <Row className="align-items-center">
-          <Col>
-            <h1 className="title">🚗 Hobbies</h1>
-          </Col>
-          <Col className="align-items-right"></Col>
-        </Row>
+      <h1 className="title">🚗 Hobbies</h1>
+        
         <Row className="align-items-center">
           <Col>
             <p id="hobbies">In my free time, you'd find me...</p>

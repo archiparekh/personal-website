@@ -19,4 +19,7 @@ h3 {
   background-color: #2B50AA;
 }
 
+@media only screen and (max-width: 600px) {
+  #hobbies, h3 { font-size: 30px; }
+} 
 

@@ -11,29 +11,66 @@ class Skills extends Component {
     return (
       <div className="Skills">
         <Container>
-          <Row className="align-items-center">
-            <Col>
-              <h1 className="title">💯 Skills</h1>
-            </Col>
-            <Col className="align-items-right">
-              <br></br>
-            </Col>
-          </Row>
-          <Row className="align-items-right">
-            <Col>
+          <h1 className="title">💯 Skills</h1>
+          <div class="desktop-view">
+            <p>Languages</p>
+            <div className="skills-wrapper">
               <SkillItem skill="Java" level="100"></SkillItem>
-              <SkillItem skill="C" level="80"></SkillItem>
-              <SkillItem skill="C++" level="80"></SkillItem>
-              <SkillItem skill="Power BI" level="80"></SkillItem>
               <SkillItem skill="Typescript" level="60"></SkillItem>
-            </Col>
-            <Col className="align-items-right">
               <SkillItem skill="Javascript" level="60"></SkillItem>
               <SkillItem skill="HTML" level="60"></SkillItem>
               <SkillItem skill="CSS" level="40"></SkillItem>
-              <SkillItem skill="React" level="20"></SkillItem>
-            </Col>
-          </Row>
+              <SkillItem skill="C" level="80"></SkillItem>
+              <SkillItem skill="C++" level="80"></SkillItem>
+            </div>
+            <br></br>
+
+            <p>Technologies</p>
+            <div className="skills-wrapper">
+              <SkillItem skill="Angular" level="100"></SkillItem>
+              <SkillItem skill="Express" level="80"></SkillItem>
+              <SkillItem skill="MongoDB" level="80"></SkillItem>
+              <SkillItem skill="Node.js" level="80"></SkillItem>
+              <SkillItem skill="Git" level="60"></SkillItem>
+              <SkillItem skill="Cypress" level="60"></SkillItem>
+              <SkillItem skill="Mocha/Chai" level="60"></SkillItem>
+              <SkillItem skill="React" level="40"></SkillItem>
+              <SkillItem skill="Power BI" level="20"></SkillItem>
+            </div>
+          </div>
+
+          <div class="mobile-view">
+            <p>Languages</p>
+            <div className="skills-wrapper">
+              <SkillItem skill="Java" level="100"></SkillItem>
+              <SkillItem skill="Typescript" level="60"></SkillItem>
+              <SkillItem skill="Javascript" level="60"></SkillItem>
+              <SkillItem skill="HTML" level="60"></SkillItem>
+              <SkillItem skill="CSS" level="40"></SkillItem>
+            </div>
+            <div className="skills-wrapper">
+              <SkillItem skill="C" level="80"></SkillItem>
+              <SkillItem skill="C++" level="80"></SkillItem>
+            </div>
+            <br></br>
+
+            <p>Technologies</p>
+            <div className="skills-wrapper">
+              <SkillItem skill="Angular" level="100"></SkillItem>
+              <SkillItem skill="Express" level="80"></SkillItem>
+              <SkillItem skill="MongoDB" level="80"></SkillItem>
+              <SkillItem skill="Node.js" level="80"></SkillItem>
+              <SkillItem skill="Git" level="60"></SkillItem>
+            </div>
+            <div className="skills-wrapper">
+              <SkillItem skill="Cypress" level="60"></SkillItem>
+              <SkillItem skill="Mocha/Chai" level="60"></SkillItem>
+              <SkillItem skill="React" level="40"></SkillItem>
+              <SkillItem skill="Power BI" level="20"></SkillItem>
+            </div>
+            <div className="skills-wrapper">
+            </div>
+          </div>
         </Container>
       </div>
     );
