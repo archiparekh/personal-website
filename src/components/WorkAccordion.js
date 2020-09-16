@@ -26,7 +26,7 @@ class WorkAccordion extends Component {
               </AccordionItemHeading>
               <AccordionItemPanel>
                 <p>
-                  As a Quality Assurance Intern at Cognition IP, I test frontend and backend code looking for what developers hate most: bugs. For some background, Cognition IP is a law-tech startup that uses technology to streamline the patent filing process. Their tools include ML tools and a portal for attorneys (which is what I work on). With engineers building and deploying new features at a rapid rate, testing the portal to ensure that there are no errors is important. 
+                  As a Quality Assurance Intern at <a href="https://www.cognitionip.com/">Cognition IP</a>, I test frontend and backend code looking for what developers hate most: bugs. For some background, Cognition IP is a law-tech startup that uses technology to streamline the patent filing process. Their tools include ML tools and a portal for attorneys (which is what I work on). With engineers building and deploying new features at a rapid rate, testing the portal to ensure that there are no errors is important. 
                   <br></br>
                   <br></br>
                   Over the past 6 months, I've increased backend coverage by about 25% using Mocha and Chai. I also revamped the frontend integration testing suite using Cypress. Initially, the frontend tests were scattered and broken due to API changes. I implemented over 70 UI tests and created a mock API which served as the one source of truth for all API changes. This way, engineers could easily make changes in the actual and mock APIs without breaking many tests and navigating through many tests. 
@@ -56,7 +56,7 @@ class WorkAccordion extends Component {
                 When building MeCovery for my senior capstone project, I learned how to use the Arduino's accelerometer, build an Android application, and develop an intuitive, comfortable product. 
                 <br></br>
                 <br></br>
-                Check out the code for the project here. 
+                Check out the code for the project <a href="https://github.com/archiparekh/mecovery-band">here.</a> 
                     </p>
               </AccordionItemPanel>
             </AccordionItem>
@@ -70,7 +70,7 @@ class WorkAccordion extends Component {
                 <p>
                   Sometimes, you want to cook but you just don't know what to make. Nomnom is a web app which suggests recipes based on the user's mood. The user can choose whether they are happy, sad, anxious, angry, adventurous, or curious and get a list of quick and easy recipes from Buzzfeed Tasty. I built this project with my younger sister using React.js, Google Maps API, and Tasty API. Working on this project taught me how to use Javascript's fetch API and UI/UX design. 
 
-                  Check out the project here: 
+                  Check out the project <a href="https://moodybaker.netlify.app/">here.</a>  
                     </p>
               </AccordionItemPanel>
             </AccordionItem>

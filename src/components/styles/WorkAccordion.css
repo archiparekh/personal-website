@@ -1,21 +1,21 @@
 .accordion {
-  background-color: #2B50AA;
+  background-color: #0B032D;
   border: none;
 }
 .accordion__item {
-  color: #ffffb0;
+  color: #FFC9AD ;
 }
 
 .accordion__heading {
-  background-color: #ffffb0;
+  background-color: #FFC9AD ;
 }
 
 .accordion__panel{
-  background-color: #ffffb0;
+  background-color: #FFC9AD ;
 }
 
 .accordion__button{
-  background-color: #2B50AA;
+  background-color: #0B032D;
   color: white; 
 }
 

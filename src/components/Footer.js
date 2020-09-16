@@ -12,7 +12,7 @@ class Footer extends Component {
         <Container>
           <Row className="align-items-center">
             <Col className="text-center">
-              <p id="footer-text">Thanks for stopping by! Feel free to reach out! I'm always open to new opportunities, connections, and conversations.</p>
+              <p id="footer-text">Thanks for stopping by! Feel free to reach out to chat. I'm always open to new opportunities, connections, and conversations.</p>
             </Col>
           </Row>
         </Container>

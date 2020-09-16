@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './styles/Intro.css';
 import Container from 'react-bootstrap/Container';
-import { FaLinkedinIn, FaGithub, FaFacebookSquare } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { IconContext } from "react-icons";
 import { GrDocument } from "react-icons/gr";

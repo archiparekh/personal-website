@@ -1,6 +1,5 @@
 .About {
-  background-color: #F3FFE1 ;
-  background-color: #e0fffb;
+  background-color: #D3F9B5   ;
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -20,19 +19,19 @@ img {
 }
 
 .currently-learning{
-  background-color:lightcyan;
+  background-color: #DDFAC6;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .passionate{
-  background-color:lightsalmon;
+  background-color: #E9FCD9;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .find-me{
-  background-color:lightgrey;
+  background-color: #E9FCD9;
   padding-left: 10px;
   padding-right: 10px;
 }

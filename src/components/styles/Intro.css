@@ -8,7 +8,7 @@
 
 h1, h3, h2, p { 
   font-family: Lato, sans-serif;
-  color: #2B50AA;
+  color: #0B032D ;
 }
 
 #id { 
@@ -25,7 +25,7 @@ h1, h3, h2, p {
 }
 
 #description {
-  color: #4B72D2;
+  color: #1B0872;
   font-weight: 700;
   font-size: 30px;
 }

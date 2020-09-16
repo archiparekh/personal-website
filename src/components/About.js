@@ -24,12 +24,12 @@ class About extends Component {
               <br></br>
               <p id="content" class="text-left ">Hi! I'm Archi (she/her) and I'm a sophomore majoring in computer science at {' '}
                   <a href="https://newbrunswick.rutgers.edu/">Rutgers University-New Brunswick</a>
-                  {'. '}I'm part of the School of Arts and Sciences Honors Program and am minoring in Economics and Hindi. I enjoy creating and engineering, whether I'm exploring web development, baking vegan cakes, or analyzing data. Currently, I'm a Software QA Intern at Cognition IP, Political Tech Fellow at Bluebonnet Data, and Community Director at USACS. Over quarantine, I've started making jewelry and cooking in my free time.</p>
+                  {'. '}I'm part of the School of Arts and Sciences Honors Program and am minoring in Economics and Hindi. I enjoy creating and engineering, whether I'm exploring web development, baking vegan cakes, or analyzing data. Currently, I'm a Software QA Intern at <a href="https://www.cognitionip.com/">Cognition IP</a>, Political Tech Fellow at <a href="https://www.bluebonnetdata.org/">Bluebonnet Data</a>, and Community Director at <a href="http://usacs.rutgers.edu/">USACS</a>. Over quarantine, I've started making jewelry and cooking in my free time.</p>
               </Col>
             </Row>
             <div className="lists">
             <Row className="passionate">
-                <p>I'm passionate about</p>
+                <p><strong>I'm passionate about</strong></p>
                 <ul>
                   <li><strong>Sustainability</strong> and using tech to mitigate climate change</li>
                   <li><strong>Building communities</strong> to support students in STEM and provide safe spaces for minorities</li>
@@ -37,7 +37,7 @@ class About extends Component {
                 </ul>
             </Row>
               <Row className="currently-learning">
-              <p>Currently I'm learning</p>
+              <p><strong>Currently I'm learning</strong></p>
                 <ul>
                   <li>web dev by building side projects</li>
                   <li>how to run a small business</li>
@@ -45,7 +45,7 @@ class About extends Component {
                 </ul>
               </Row>
               <Row className="find-me">
-                <p>Find me</p>
+                <p><strong>Find me</strong></p>
                 <ul>
                   <li>Interning at a startup</li>
                   <li>Developing strategy for democratic campaigns</li>
@@ -63,7 +63,7 @@ class About extends Component {
               <br></br>
               <p id="content" class="text-left ">Hi! I'm Archi (she/her) and I'm a sophomore majoring in computer science at {' '}
                   <a href="https://newbrunswick.rutgers.edu/">Rutgers University-New Brunswick</a>
-                  {'. '}I'm part of the School of Arts and Sciences Honors Program and am minoring in Economics and Hindi. I enjoy creating and engineering, whether I'm exploring web development, baking vegan cakes, or analyzing data. Currently, I'm a Software QA Intern at Cognition IP, Political Tech Fellow at Bluebonnet Data, and Community Director at USACS. Over quarantine, I've started making jewelry and cooking in my free time.</p>
+                  {'. '}I'm part of the School of Arts and Sciences Honors Program and am minoring in Economics and Hindi. I enjoy creating and engineering, whether I'm exploring web development, baking vegan cakes, or analyzing data. Currently, I'm a Software QA Intern at <a href="https://www.cognitionip.com/">Cognition IP</a>, Political Tech Fellow at <a href="https://www.bluebonnetdata.org/">Bluebonnet Data</a>, and Community Director at <a href="http://usacs.rutgers.edu/">USACS</a>. Over quarantine, I've started <a href="https://www.etsy.com/shop/DesignsByArchi">making jewelry</a> and cooking in my free time.</p>
               </Col>
               <Col id="my-pic" className="text-center">
                 <img src={MyPic} alt="Archi :)))"></img>

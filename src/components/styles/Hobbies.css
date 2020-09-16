@@ -11,12 +11,12 @@
 h3 {
   font-size: 40px;
   text-align: center;
-  color: #2B50AA;
+  color: #1B0872;
   font-weight: bolder;
 }
 
 .custom {
-  background-color: #2B50AA;
+  background-color: #0B032D;
 }
 
 @media only screen and (max-width: 600px) {
